@@ -47,7 +47,7 @@ public class AppConfig {
                         "http://localhost:3000/",
                         "http://localhost:5173/",
                         "http://localhost:4200/",
-                        "https://pms-backend-production-4dc7.up.railway.app/"
+                        "http://pms-backend-production-4dc7.up.railway.app/"
                 ));
                 corsConfiguration.setAllowedMethods(Arrays.asList("GET", "PATCH", "POST", "PUT", "DELETE", "OPTIONS"));
                 corsConfiguration.setAllowCredentials(true);
